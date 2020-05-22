@@ -1,0 +1,30 @@
+first go the documentation of the particles.js...https://github.com/VincentGarreau/particles.js/................
+visit the link to get the cdn....https://www.jsdelivr.com/package/npm/particles.js?tab=collection.......
+
+//stroke is used to make border around circle or image it means that border around any shape
+
+//for shape to store image:
+"shape": {
+        "type": "image",
+        "image":{
+          "src":"net.png"
+        },
+        "stroke": {  
+          "width": 0,
+          "color": "#000000"
+        }
+    },
+//size is used tpo modify the size of shape(circle,triangle,image)
+
+
+//opacity value is used to make the shape transparent 
+//opacity.anim is used to make some animations
+//opacity.random change the opacity value of each particles
+
+//size.anim is used make animation or change size like animtion
+
+//line_linked is used to modify the property of the line which link the two shape.
+
+//move is used to modify the movi property of prticles along with line_linked 
+
+//interactivity is used to define the event like hove...
